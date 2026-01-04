@@ -1,0 +1,51 @@
+groc:
+  api_key: "YOUR_GROC_KEY"
+  api_url: "https://api.groq.com/openai/v1/chat/completions"
+  model: "llama-3.3-70b-versatile"
+
+sora:
+  key: "YOUR_SORA_RAPIDAPI_KEY"
+  host: "sora-2-api-unlimited.p.rapidapi.com"
+  api_url: "https://sora-2-api-unlimited.p.rapidapi.com/generate"
+
+pixabay:
+  api_key: "YOUR_PIXABAY_KEY"
+  api_url: "https://pixabay.com/api/videos/"
+
+socialbu:
+  api_key: "YOUR_SOCIALBU_KEY"
+  api_url: "https://api.socialbu.com/v1/publish"
+  facebook_page_id: "YOUR_PAGE_ID"
+
+schedule:
+  times:
+    - "10:00"
+    - "18:00"
+  timezone: "America/New_York"
+
+video:
+  duration: 30
+  resolution: "1080x1920"
+  fps: 30
+  max_retries: 3
+
+paths:
+  output: "output"
+  raw_videos: "output/raw_videos"
+  voice: "output/voice"
+  music: "output/music"
+  final_videos: "output/final_videos"
+  logs: "logs"
+
+genres:
+  - "Romance"
+  - "CEO/Billionaire"
+  - "Betrayal"
+  - "Heartbreak"
+  - "Rise from Poverty"
+  - "Power & Secrets"
+
+edge_tts:
+  voice: "en-US-EmmaMultilingualNeural"
+  rate: "+5%"
+  pitch: "+0Hz"
